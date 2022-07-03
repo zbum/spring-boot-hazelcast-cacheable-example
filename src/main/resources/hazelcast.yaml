@@ -1,0 +1,11 @@
+hazelcast:
+  cluster-name: 'manty'
+  network:
+    join:
+      multicast:
+        enabled: false
+        multicast-group: 224.0.0.1
+      tcp-ip:
+        enabled: true
+        member-list:
+          - localhost
